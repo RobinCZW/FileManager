@@ -1,0 +1,47 @@
+{
+  "topClient": {
+    "appkey": "",
+    "appsecret": "",
+    "REST_URL": "https://eco.taobao.com/router/rest"
+  },
+  "smsParams": {
+    "extend": "",
+    "sms_type": "normal",
+    "sms_free_sign_name": "短信通知",
+    "sms_param": {},
+    "rec_num": 13000000000,
+    "sms_template_code": "SMS_13115145"
+  },
+  "database": {
+    "dialect": "sqlite",
+    "storage": "./test.db"
+  },
+  "dbfs": {
+    "tree": "./tree",
+    "objects": "./tree/objects"
+  },
+  "oss": {
+    "enabled": true,
+    "prefix": "objects/",
+    "region": "oss-cn-qingdao",
+    "accessKeyId": "",
+    "accessKeySecret": "",
+    "bucket": "",
+    "expires": 600
+  },
+  "umeng": {
+    "appKey": "1111",
+    "appSecret": "1111"
+  },
+  "oauth": {
+    "qq_appid": "101369980"
+  },
+  "SessionSecret": "fsdlkjafklsj",
+  "phoneRE": "^1[34578]{1}\\d{9}$",
+  "freqLimit": 3,
+  "bindAddr": "127.0.0.1",
+  "bindPort": 8080,
+  "debug": false,
+  "cluster": false,
+  "wpMiddleware": false
+}
